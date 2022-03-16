@@ -84,7 +84,7 @@ header {
 }
 
 .messages li{
-    background-color: slategray;
+    background-color: rgb(189, 222, 251);
     text-align: left;
     width: max-content;
     max-width: 500px;
