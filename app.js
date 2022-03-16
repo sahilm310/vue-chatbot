@@ -35,7 +35,7 @@ const app = Vue.createApp({
             this.addToChat("Me", this.inputText, "chat--me");
             this.inputText = '';
             const replyNum = randNum(0, this.replies.length);
-            this.addToChat('Bot', this.replies[replyNum], "chat--bot");
+            this.addToChat('John', this.replies[replyNum], "chat--bot");
         },
     }
 
