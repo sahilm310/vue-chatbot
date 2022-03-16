@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Jost', sans-serif;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    display: flexbox;
+}
+
+header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: slateblue;
+  color: white;
+  text-align: center;
+}
+
+#app {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  height: 680px;
+  max-width: 800px;
+}
+
+#app input {
+  font: inherit;
+  border: 1px solid #ccc;
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+  
+}
+
+#app input:focus {
+  outline: none;
+  border-color: #471b99;
+  background-color: #e9d7fd;
+}
+
+#app button {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid #ff0077;
+  background-color: #ff0077;
+  border-radius:1rem;
+  color: white;
+  padding: 0.3rem 0.5%;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+}
+
+#app button:hover,
+#app button:active {
+  background-color: #ec3169;
+  border-color: #ec3169;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+}
+
+.inputField input{
+    width: 60%;
+}
+
+.inputField button{
+    width: 18%;
+}
+
+.messages{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.messages li{
+    background-color: slategray;
+    text-align: left;
+    width: max-content;
+    max-width: 500px;
+    min-width: 200px;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.messages .sender{
+    font-weight: bold;
+}
+.messages .chat--bot{
+    background-color: rgb(189, 222, 251);
+    border-top-left-radius: 0px;
+}
+.messages .chat--me{
+    background-color: rgb(29, 71, 109);
+    color: white;
+    margin-left: auto;
+    border-top-right-radius: 0px;
+}
+
+
+
